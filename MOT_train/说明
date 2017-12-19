@@ -1,0 +1,15 @@
+代码
+create.py 将GT抠出来保存为tfrecord格式
+input_data1.py  读取tfrecord文件
+sepr_train.py   训练神经网络 
+
+
+文件夹
+train   MOTchallenge原始数据
+train_tfrecord  保存好的tfrecord文件
+object_number   每个序列中各目标的检测数量，在读取数据的时候自动用到
+save1   保存训练的模型
+
+
+
+http://blog.csdn.net/hjimce/article/details/51899683 深度学习项目构建流程
